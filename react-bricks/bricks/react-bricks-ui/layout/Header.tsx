@@ -39,7 +39,7 @@ const Header: types.Brick<HeaderProps> = ({
   return (
     <Section
       backgroundColor={backgroundColor}
-      borderBottom={borderBottom ? 'full' : 'none'}
+      borderBottom={'none'}
     >
       <nav className="py-5 px-5 sm:mx-[5.55555%] xl:mx-[11.1111%] flex justify-start items-center">
         <Link
@@ -47,12 +47,12 @@ const Header: types.Brick<HeaderProps> = ({
           aria-label="home"
           className="inline-flex py-1.5 px-2 mr-6"
         >
-          <Image
+          {/* <Image
             propName="logo"
             alt="Logo"
             maxWidth={300}
             imageClassName="block w-32 h-7 object-contain object-left"
-          />
+          /> */}
         </Link>
         <div className="hidden lg:flex items-center space-x-2">
           <Repeater
