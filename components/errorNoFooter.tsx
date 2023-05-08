@@ -7,6 +7,7 @@ const ErrorNoFooter = () => {
     //   </h2>
     //   <p className='mb-6'>React Bricks cannot find an entity for the footer.</p>
     // </div>
+    // Deploy trigger
   )
 }
 
