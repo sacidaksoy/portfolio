@@ -5,8 +5,8 @@ import {
   types,
   useAdminContext,
   RichText,
-  Link,
 } from 'react-bricks/frontend'
+import Link from 'next/link';
 import { FaTwitter } from 'react-icons/fa'
 import Section from '../../shared/components/Section'
 import blockNames from '../../blockNames'
