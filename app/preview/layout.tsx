@@ -96,8 +96,9 @@ export default async function Layout(props: {
         <ThemeProvider
           attribute="class"
           storageKey="color-mode"
-          enableSystem={false}
-          defaultTheme="light"
+          enableSystem
+          enableColorScheme
+          defaultTheme="system"
         >
           <main>
             <ReactBricksApp>
