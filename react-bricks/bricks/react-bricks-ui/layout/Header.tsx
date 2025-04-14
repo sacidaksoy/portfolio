@@ -27,10 +27,7 @@ const Header: types.Brick<HeaderProps> = ({
 }) => {
   return (
     <HeaderProvider>
-      <Section
-        backgroundColor={backgroundColor}
-        borderBottom={borderBottom ? 'full' : 'none'}
-      >
+      <Section backgroundColor={backgroundColor} borderBottom={borderBottom}>
         <nav className="py-5 px-5 sm:mx-[5.55555%] xl:mx-[11.1111%] flex justify-start items-center">
           <Link
             href="/"
